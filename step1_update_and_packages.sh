@@ -14,3 +14,19 @@ sudo apt update
 
 # Install PHP 8 and necessary modules
 sudo apt install -y php8.2 php8.2-cli php8.2-common php8.2-curl php8.2-gd php8.2-intl php8.2-mbstring php8.2-mysql php8.2-opcache php8.2-readline php8.2-xml php8.2-xsl php8.2-zip php8.2-bz2 libapache2-mod-php8.2
+
+# Install Apache2
+sudo apt install -y apache2
+
+# Install MariaDB
+sudo apt install -y mariadb-server mariadb-client
+
+# Secure MariaDB installation
+sudo mysql_secure_installation <<EOF
+
+n
+Y
+Y
+Y
+Y
+EOF
