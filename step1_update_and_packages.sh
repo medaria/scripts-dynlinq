@@ -22,11 +22,4 @@ sudo apt install -y apache2
 sudo apt install -y mariadb-server mariadb-client
 
 # Secure MariaDB installation
-sudo mysql_secure_installation <<EOF
-
-n
-Y
-Y
-Y
-Y
-EOF
+sudo mysql_secure_installation 
