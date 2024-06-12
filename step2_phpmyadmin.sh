@@ -19,7 +19,7 @@ Alias /phpmyadmin /usr/share/phpmyadmin
     DirectoryIndex index.php
 </Directory>
 
-# Disallow web access to directories that don't need it
+# Disallow web access to directories that dont need it
 <Directory /usr/share/phpmyadmin/templates>
     Require all denied
 </Directory>
